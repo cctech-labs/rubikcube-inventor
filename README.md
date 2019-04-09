@@ -1,4 +1,4 @@
-# rubikcube-inventor
+# Rubik Cube's game as Inventor Plugin
 
 	How to Register/Unregister 
 	=======================
