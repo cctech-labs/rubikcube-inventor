@@ -1,0 +1,14 @@
+<Addin Type="Standard">
+  <!--Created for Autodesk Inventor Version 18.0-->
+  <ClassId>{07e1fdef-7a8b-4920-8501-51810a71b2bf}</ClassId>
+  <ClientId>{07e1fdef-7a8b-4920-8501-51810a71b2bf}</ClientId>
+  <DisplayName>Rubik's Cube</DisplayName>
+  <Description>Rubik's Cube</Description>
+  <Assembly>Rubik's Cube.dll</Assembly>
+  <LoadOnStartUp>1</LoadOnStartUp>
+  <UserUnloadable>1</UserUnloadable>
+  <Hidden>0</Hidden>
+  <SupportedSoftwareVersionGreaterThan>17..</SupportedSoftwareVersionGreaterThan>
+  <DataVersion>1</DataVersion>
+  <UserInterfaceVersion>1</UserInterfaceVersion>
+</Addin>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="Inventor" Name="RubiksCube" Description="Famous Rubik's cube now available in Autodesk® Inventor® with a solver." AppVersion="1.1.0" FriendlyVersion="1.1.0" ProductType="Application" SupportedLocales="Enu" AppNameSpace="appstore.exchange.autodesk.com" Author="Centre For Computational Technologies Pvt. Ltd" ProductCode="{763BCC22-A047-46B0-8961-08D3B041988B}" UpgradeCode="{928AE259-0D54-43D3-986A-DD19DBBEE0CF}" OnlineDocumentation="http://www.cctech.co.in/" HelpFile="./Contents/Documentation/RubiksCube.html" Icon="./Contents/Documentation/Resources/resized2_icon.ico">
+  <CompanyDetails Name="Centre For Computational Technologies Pvt. Ltd" Url="http://www.cctech.co.in/" Email="info@cctech.co.in" />
+  <RuntimeRequirements OS="Win32|Win64" Platform="Inventor" />
+  <Components Description="Contents parts">
+    <RuntimeRequirements OS="Win32|Win64" Platform="Inventor" SeriesMin="Ir18" SeriesMax="Ir19" />
+    <ComponentEntry AppName="RubiksCube" Version="1.1.0" ModuleName="./Contents/Windows/Autodesk.RubiksCube.Inventor.addin" AppDescription="Famous Rubik's cube now available in Autodesk® Inventor® with a solver." />
+    <ComponentEntry AppName="RubiksCube" Version="1.1.0" ModuleName="./Contents/Windows/Rubik's Cube.dll" AppDescription="Famous Rubik's cube now available in Autodesk® Inventor® with a solver." />
+  </Components>
+</ApplicationPackage>
