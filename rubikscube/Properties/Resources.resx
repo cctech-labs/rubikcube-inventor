@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IDC_APPLICATION_BTN_TITLE" xml:space="preserve">
+    <value>Begin  Rubik's Cube</value>
+  </data>
+  <data name="IDC_APPLICATION_BTN_TOOLTIP_DESCRIPTION" xml:space="preserve">
+    <value>Loads the famous Rubik's cube game.</value>
+  </data>
+  <data name="IDC_APPLICATION_BTN_TOOLTIP_EXPANDED" xml:space="preserve">
+    <value>It allows user to scramble and solve Rubik's cube. Also, it has a solver which shows the moves required to solve any scrambled Rubik's cube.</value>
+  </data>
+  <data name="IDC_CLIENTID" xml:space="preserve">
+    <value>{07e1fdef-7a8b-4920-8501-51810a71b2bf}</value>
+  </data>
+  <data name="IDC_EMPTY" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IDC_ENV_ASSEMBLY" xml:space="preserve">
+    <value>Assembly</value>
+  </data>
+  <data name="IDC_ENV_DISPLAY_NAME" xml:space="preserve">
+    <value>Rubik's Cube</value>
+  </data>
+  <data name="IDC_ENV_INTERNAL_NAME" xml:space="preserve">
+    <value>RubikEnv123_</value>
+  </data>
+  <data name="IDC_ENV_PART" xml:space="preserve">
+    <value>Part</value>
+  </data>
+  <data name="IDC_NEXT_BTN_TOOLTIP_DESCRIPTION" xml:space="preserve">
+    <value>Shows the next move for the solution</value>
+  </data>
+  <data name="IDC_NEXT_BTN_TOOLTIP_EXPANDED" xml:space="preserve">
+    <value>Solves Rubik's cube and plays each move one by one on the click.</value>
+  </data>
+  <data name="IDC_NEXT_DISPLAY_NAME" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="IDC_NEXT_INTERNAL_NAME" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="IDC_NOT_A_NEW_PART_DOC" xml:space="preserve">
+    <value>Please launch Rubik's cube app in new empty part document.</value>
+  </data>
+  <data name="IDC_PLAY_BTN_TOOLTIP_DESCRIPTION" xml:space="preserve">
+    <value>Shows all the moves in the solution </value>
+  </data>
+  <data name="IDC_PLAY_BTN_TOOLTIP_EXPANDED" xml:space="preserve">
+    <value>Solves Rubik's cube and plays all the moves like animation. User can see each step one by one by clicking on Next.</value>
+  </data>
+  <data name="IDC_PLAY_DISPLAY_NAME" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="IDC_PLAY_INTERNAL_NAME" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="IDC_SCRAMBLE_BTN_TOOLTIP_DESCRIPTION" xml:space="preserve">
+    <value>Scrambles the Rubik's cube randomly.</value>
+  </data>
+  <data name="IDC_SCRAMBLE_BTN_TOOLTIP_EXPANDED" xml:space="preserve">
+    <value>Allows user to scramble Rubik's cube. User can scramble the Rubik's cube any number of times.</value>
+  </data>
+  <data name="IDC_SCRAMBLE_DISPLAY_NAME" xml:space="preserve">
+    <value>Scramble</value>
+  </data>
+  <data name="IDC_SCRAMBLE_INTERNAL_NAME" xml:space="preserve">
+    <value>Scramble</value>
+  </data>
+  <data name="IDC_SOLVE_BTN_TOOLTIP_DESCRIPTION" xml:space="preserve">
+    <value>Allows user to play with Rubik's cube manually.</value>
+  </data>
+  <data name="IDC_SOLVE_BTN_TOOLTIP_EXPANDED" xml:space="preserve">
+    <value>User can rotate any face of the Rubik's cube by dragging the face in the desired direction like real world Rubik's cube.</value>
+  </data>
+  <data name="IDC_SOLVE_DISPLAY_NAME" xml:space="preserve">
+    <value>Solve</value>
+  </data>
+  <data name="IDC_SOLVE_INTERNAL_NAME" xml:space="preserve">
+    <value>Solve</value>
+  </data>
+  <data name="IDC_TAB_DISPLAY_NAME" xml:space="preserve">
+    <value>Rubik's Cube</value>
+  </data>
+  <data name="IDC_TAB_INTERNAL_NAME" xml:space="preserve">
+    <value>Rubik'sCube_internal</value>
+  </data>
+  <data name="IDC_TARGET_TAB_NAME" xml:space="preserve">
+    <value>id_TabEnvironments</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Next_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Next_16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Next_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Next_32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Play_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Play_16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Play_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Play_32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rubiks_Cube_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rubiks_Cube_16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rubiks_Cube_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rubiks_Cube_32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scramble_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Scramble_16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Scramble_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Scramble_32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Solve_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Solve_16.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Solve_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Solve_32.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
