@@ -1,3 +1,9 @@
+/*  ******************************************************************************
+    Copyright (c) 2019 Centre for Computational Technologies Pvt. Ltd.(CCTech) .
+    All Rights Reserved. Licensed under the MIT License .  
+    See License.txt in the project root for license information .
+******************************************************************************  */
+
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
